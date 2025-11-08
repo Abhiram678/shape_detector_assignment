@@ -96,24 +96,30 @@ Algorithm follows a multi-stage pipeline:
 
 ## Test Results (Sample Images)
 
+<img width="943" height="395" alt="image" src="https://github.com/user-attachments/assets/f8bc118c-67ea-46d1-90d0-e3c8d3010187" />
+
 ### Test 1: Simple Circle
 - **Detected**: Circle ✓
 - **Confidence**: 90%
-- **Processing Time**: 39.8ms
+- **Processing Time**: 38.70ms
 - **Result**: Correct detection
+
+<img width="998" height="621" alt="image" src="https://github.com/user-attachments/assets/f284e727-4d76-462a-b3ef-a6e4688c03ee" />
 
 ### Test 2: Complex Scene (Multiple Shapes)
 - **Shapes in Image**: Circle, Rectangle, Star, Lines
 - **Detected**: Rectangle ✓, Circle ✓, Star ✓
 - **Confidence**: 85-95%
-- **Processing Time**: 27.9ms
+- **Processing Time**: 33.0ms
 - **Result**: All shapes correctly identified
+
+<img width="1041" height="503" alt="image" src="https://github.com/user-attachments/assets/c510712f-07f9-4929-ac09-32c180f698a0" />
 
 ### Test 3: Noisy Background
 - **Shapes in Image**: Circle, Pentagon
 - **Detected**: Pentagon ✓, Circle ✓
 - **Confidence**: 88-90%
-- **Processing Time**: 42ms
+- **Processing Time**: 25.40ms
 - **Result**: Correct detection despite background noise
 
 ### Overall Performance Summary
